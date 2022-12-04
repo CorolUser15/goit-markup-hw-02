@@ -18,8 +18,8 @@ body{
      text-decoration: none;
  }
  ul{
-     list-style: none;
- }
+    list-style: none;
+}
  .logo{
      color: var(--primary-text-color);
      font-family: 'Raleway', sans-serif;
