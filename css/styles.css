@@ -18,7 +18,11 @@ body{
  }
  ul{
     list-style: none;
-}
+ }
+    li{
+        background-color: var(--button);
+    }
+
  .logo{
      color: var(--primary-text-color);
      font-family: 'Raleway', sans-serif;
@@ -83,8 +87,8 @@ body{
     letter-spacing: 0.04em;
     cursor: pointer;
 }
-.button:hover,
-.button:focus{
+.hero-button:hover,
+.hero-button:focus{
     background-color: var(--background-color-button);
     color: var(--button);
 }
@@ -108,6 +112,7 @@ body{
     letter-spacing: 0.02em;
 }
 .title-content{
+    color: var(--contacts);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -143,11 +148,12 @@ body{
 }
 
 .btn{
+    color: var(--logo);
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
     line-height: 1.5;
-    color: var(--logo);
+    background-color: var(--footer-logo);
     letter-spacing: 0.04em;
     cursor: pointer;
     text-align: center;
@@ -167,6 +173,7 @@ body{
 
 }
 .title-list-item{
+    color: var(--contacts);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
